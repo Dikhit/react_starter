@@ -1,12 +1,12 @@
 import * as React from "react";
 import HelmetHelper from "../../Helpers/HelmetHelper";
 
-export default function Home({authService}) {
+export default function About({authService}) {
     return (
         <div>
             <HelmetHelper/>
-            <h1>Home page</h1>
-            <h2>goto <a href="/about">About page</a></h2>
+            <h1>About Page</h1>
+            <h2>goto <a href="/"> Home Page </a></h2>
         </div>
     )
 }
